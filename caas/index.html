@@ -478,6 +478,9 @@
 				</aside><!--.subscribe-->
 
 				<footer class="global-footer">
+					<div class="fancy-box">
+						<div class="fancy-box-content">
+
 					<div class="poweredby">
 						<em>Powered by</em>
 						<!-- <img src="http://dummyimage.com"> -->
@@ -506,6 +509,9 @@
 							</div><!--.row-->
 						</div><!--.container-fluid-->
 					</div><!--.footer-essential-->
+
+						</div><!--.fancy-box-content-->
+					</div><!--.fancy-box-->
 				</footer><!--.global-footer-->
 
 
@@ -517,14 +523,14 @@
 		</div><!--.main-->
 
 		<div class="extras-startcampaign">
-				<a href="javascript:;" class="sc-floatbutton">Start Campaign Now</a>
-				<div class="startcampaign-options">
-					<span></span>
-					<h4>Plan Campaign</h4>
-					<a href="javascript:;">Plan New Campaign</a>
-					<a href="javascript:;">Resume Plan</a>
-				</div><!--.startcampaign-options-->
-			</div><!--.extras-startcampaign-->
+			<a href="javascript:;" class="sc-floatbutton">Start Campaign Now</a>
+			<div class="startcampaign-options">
+				<span></span>
+				<h4>Plan Campaign</h4>
+				<a href="javascript:;">Plan New Campaign</a>
+				<a href="javascript:;">Resume Plan</a>
+			</div><!--.startcampaign-options-->
+		</div><!--.extras-startcampaign-->
 
 		<script type="text/javascript" src="scripts/lib/jquery.min.js"></script>
 		<script type="text/javascript" src="scripts/lib/bootstrap.min.js"></script>
@@ -532,5 +538,24 @@
 		<script type="text/javascript" src="scripts/lib/jquery.onepage-scroll.min.js"></script>
 
 		<script type="text/javascript" src="scripts/caas.augentia.js"></script>
+
+		<script type="text/javascript">
+			/** This section is only needed once per page if manually copying **/
+			if (typeof MauticSDKLoaded == 'undefined') {
+				var MauticSDKLoaded = true;
+				var head            = document.getElementsByTagName('head')[0];
+				var script          = document.createElement('script');
+				script.type         = 'text/javascript';
+				script.src          = 'http://mcloud.campaignasaservice.com/media/js/mautic-form.js';
+				script.onload       = function() {
+					MauticSDK.onLoad();
+				};
+				head.appendChild(script);
+				var MauticDomain = 'http://mcloud.campaignasaservice.com';
+				var MauticLang   = {
+					'submittingMessage': "Please wait..."
+				}
+			}
+		</script>
 	</body>
 </html>
