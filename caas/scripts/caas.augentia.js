@@ -21,6 +21,8 @@
 			isPagging = true;
 		}, 650);*/
 		$( 'nav.global-navigation a.nav-item' ).removeClass( 'item-active' );
+		if ( $( this ).attr( 'id' ) == 'scroll-home' ) 
+			$( '.main' ).moveTo( 1 );
 		if ( $( this ).attr( 'id' ) == 'scroll-benefits' ) 
 			$( '.main' ).moveTo( 2 );
 		if ( $( this ).attr( 'id' ) == 'scroll-howitworks' ) 
@@ -276,10 +278,14 @@ function initializeOnePage () {
 };
 
 function setActiveTab ( theIndex ) {
+	//alert( 'index = ' + theIndex );
+
 	if ( theIndex != 0 ) 
 		$( 'div.extras-startcampaign' ).removeClass( 'popup-active' );
 
 	$( 'nav.global-navigation a.nav-item' ).removeClass( 'item-active' );
+	if ( theIndex == 1 )
+		$( '#scroll-home' ).addClass( 'item-active' );
 	if ( theIndex == 2 )
 		$( '#scroll-benefits' ).addClass( 'item-active' );
 	if ( theIndex == 3 )
