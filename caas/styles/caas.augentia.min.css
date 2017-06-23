@@ -275,10 +275,10 @@ section.howitworks .hiw-content .lst-hiw-tabs::before { content: ''; position: a
 section.typesofcampaign { background: #fff; /* //.fancy-box */ /* //.section-heading */ /* //.toc-box */ }
 section.typesofcampaign .fancy-box { background-color: #2f2f2f; /*margin-top: -50px;*/ -webkit-transform: -webkit- skew(0deg, -5deg); -moz-transform: -moz- skew(0deg, -5deg); -ms-transform: -ms- skew(0deg, -5deg); -o-transform: -o- skew(0deg, -5deg); transform: skew(0deg, -5deg); /* //.fancy-box-content */ }
 section.typesofcampaign .fancy-box .fancy-box-content { padding: 200px 0 100px; -webkit-transform: -webkit- skew(0deg, 5deg); -moz-transform: -moz- skew(0deg, 5deg); -ms-transform: -ms- skew(0deg, 5deg); -o-transform: -o- skew(0deg, 5deg); transform: skew(0deg, 5deg); /*height: 700px;*/ position: relative; /* //.types-slider */ }
-section.typesofcampaign .fancy-box .fancy-box-content .types-slider { position: absolute; left: 0; right: 0; top: 300px; /* //.swiper-slide */ }
+section.typesofcampaign .fancy-box .fancy-box-content .types-slider { position: absolute; left: 0; right: 0; top: 280px; /* //.swiper-slide */ }
 section.typesofcampaign .fancy-box .fancy-box-content .types-slider .swiper-slide { color: #fff; display: block; padding: 30px; cursor: pointer; /* //h2 */ }
 section.typesofcampaign .fancy-box .fancy-box-content .types-slider .swiper-slide h2 { font-size: 24px; margin: 0; padding: 0; }
-section.typesofcampaign .section-heading { color: #fff; color: rgba(255, 255, 255, 0.9); }
+section.typesofcampaign .section-heading { color: #fff; color: rgba(255, 255, 255, 0.9); padding: 0px 0 20px; }
 section.typesofcampaign .toc-box { width: 70%; margin: 30px auto; padding: 30px 0 0; text-align: center; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; border-radius: 20px; /*width: 400px;*/ margin: 0 auto; -webkit-box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5); box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5); /* //.toc-description-box */ }
 section.typesofcampaign .toc-box .toc-description-box { background-color: #fff; padding: 0 30px 30px; margin-top: 250px; position: relative; -webkit-border-radius: 0 0 20px 20px; -moz-border-radius: 0 0 20px 20px; -ms-border-radius: 0 0 20px 20px; border-radius: 0 0 20px 20px; /*border-top: 10px solid green;*/ /* //&::before */ /* //.toc-desc */ /* //&:hover */ }
 section.typesofcampaign .toc-box .toc-description-box::before { content: ''; position: absolute; width: 30px; height: 30px; /*background-color: red;*/ left: 50%; top: -15px; margin-left: -15px; background-color: #fff; -webkit-transform: -webkit- rotate(45deg); -moz-transform: -moz- rotate(45deg); -ms-transform: -ms- rotate(45deg); -o-transform: -o- rotate(45deg); transform: rotate(45deg); }
@@ -315,7 +315,7 @@ section.typesofcampaign .toc-box .toc-description-box:hover a.next-toc, section.
 /* === Section - Types of Campaign :: End   */
 /* === Section - Start Campagin :: Start */
 section.startcampaign { background: #fff; /* //.fancy-box */ /* //.startcampaign-content */ }
-section.startcampaign .fancy-box { background-color: #fff; /*margin-top: -50px;*/ -webkit-transform: -webkit- skew(0deg, -5deg); -moz-transform: -moz- skew(0deg, -5deg); -ms-transform: -ms- skew(0deg, -5deg); -o-transform: -o- skew(0deg, -5deg); transform: skew(0deg, -5deg); /* //.fancy-box-content */ }
+section.startcampaign .fancy-box { background-color: #fff; margin-top: 50px; /*margin-top: -50px;*/ -webkit-transform: -webkit- skew(0deg, -5deg); -moz-transform: -moz- skew(0deg, -5deg); -ms-transform: -ms- skew(0deg, -5deg); -o-transform: -o- skew(0deg, -5deg); transform: skew(0deg, -5deg); /* //.fancy-box-content */ }
 section.startcampaign .fancy-box .fancy-box-content { padding: 200px 0 50px; -webkit-transform: -webkit- skew(0deg, 5deg); -moz-transform: -moz- skew(0deg, 5deg); -ms-transform: -ms- skew(0deg, 5deg); -o-transform: -o- skew(0deg, 5deg); transform: skew(0deg, 5deg); }
 section.startcampaign .startcampaign-content { width: 70%; margin: 0 auto; padding: 30px; text-align: center; /* //p */ /* //a */ }
 section.startcampaign .startcampaign-content p { margin: 0; padding: 0; margin-bottom: 20px; font-size: 17px; }
