@@ -106,7 +106,7 @@ header.global-header { position: absolute; z-index: 10; background: #fff; /*back
 header.global-header .in-header { /* //.caas-logo-big */ /* //.header-extras */ }
 header.global-header .in-header .caas-logo-big { /*padding-top: 10px;*/ /* //h1 */ }
 header.global-header .in-header .caas-logo-big h1 { padding: 10px 0 0; display: block; font-size: 30px; }
-header.global-header .in-header .caas-logo-big a { display: inline-block; /* //img */ }
+header.global-header .in-header .caas-logo-big a { display: inline-block; cursor: default; /* //img */ }
 header.global-header .in-header .caas-logo-big a img { width: 220px; height: 60px; }
 header.global-header .in-header .header-extras { float: right; /* //.lst-header-extras */ /* //.go-augentia */ }
 header.global-header .in-header .header-extras .lst-header-extras { list-style: none; text-align: right; /* //li */ }
@@ -385,7 +385,7 @@ top: 40%;*/ /* //.sc-floatbutton */ /* //.startcampaign-options */ /* //&.popup-
 .extras-startcampaign .startcampaign-options h4 { margin: 0; padding: 0; color: #fff; color: rgba(255, 255, 255, 0.9); /*padding-bottom: 20px;*/ }
 .extras-startcampaign .startcampaign-options em { padding: 8px 0 10px; /*color: $white;
 color: rgba($white, .9);*/ color: gold; display: block; }
-.extras-startcampaign .startcampaign-options a { display: block; margin-bottom: 20px; background: #3b89f3; color: #fff; padding: 12px 15px; text-transform: uppercase; }
+.extras-startcampaign .startcampaign-options a { display: block; margin-bottom: 20px; cursor: default; background: #3b89f3; color: #fff; padding: 12px 15px; text-transform: uppercase; }
 .extras-startcampaign.popup-active { /* //.startcampaign-options */ }
 .extras-startcampaign.popup-active .startcampaign-options { -webkit-transform: -webkit- translateX(0); -moz-transform: -moz- translateX(0); -ms-transform: -ms- translateX(0); -o-transform: -o- translateX(0); transform: translateX(0); }
 
@@ -469,6 +469,10 @@ color: rgba($white, .9);*/ color: gold; display: block; }
   section.typesofcampaign .fancy-box .fancy-box-content { padding: 80px 0 0; }
   section.typesofcampaign .fancy-box .fancy-box-content .types-slider { top: 170px; }
   section.typesofcampaign .toc-box .toc-description-box { margin-top: 200px; } }
+@media (max-width: 1024px) { section.typesofcampaign .fancy-box .fancy-box-content .types-slider { top: 260px; }
+  section.typesofcampaign .section-heading { padding-bottom: 20px; }
+  section.typesofcampaign .toc-box .toc-description-box { margin-top: 200px; padding: 0 20px 20px; }
+  section.typesofcampaign .fancy-box { margin-top: -10px; } }
 @media (max-width: 414px) { main.hero .banner-area .banner-content .banner-circle.circle2 { top: 40%; margin-left: -180px; }
   main.hero .banner-area .banner-content .banner-circle.circle3 { top: 40%; margin-left: 60px; }
   .fc-socialconnect { text-align: center; }
